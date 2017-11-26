@@ -7,7 +7,6 @@ public class RunCoffeMachine {
 		CoffeMachine coffeMachine = new CoffeMachine();
 		coffeMachine.execute("5");
 		coffeMachine.execute("5");
-		coffeMachine.execute("c15");
-//		coffeMachine.execute("c5");
+		coffeMachine.execute("c10");
 	}
 }

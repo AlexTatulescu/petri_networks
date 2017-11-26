@@ -9,6 +9,7 @@ import ace.ucv.petri_net.PetriNetwork;
 import ace.ucv.petri_net.Transition;
 
 public class CoffeMachine extends PetriNetwork {
+	
 	public CoffeMachine() {
 		Location location0 = new Location("0", 1);
 		Location location5 = new Location("5", 0);
