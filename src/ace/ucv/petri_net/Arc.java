@@ -14,6 +14,10 @@ public class Arc {
 
 	public boolean isValid() {
 
+		if (direction.equals(Direction.OUT)) {
+			return true;
+		}
+
 		if (direction.equals(Direction.IN) && capacity <= location.getTokens()) {
 			return true;
 		}
